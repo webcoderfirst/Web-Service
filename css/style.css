@@ -100,6 +100,16 @@ nav .container .row .user .user-logo .dropdown ul {
 nav .container .row .user .user-logo .dropdown ul li {
   margin-top: 15px;
 }
+nav .container .row .user .user-logo .dropdown ul li .logout a i {
+  font-size: 24px;
+  font-weight: normal;
+  color: #e24444;
+}
+nav .container .row .user .user-logo .dropdown ul li .logout a span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e24444;
+}
 nav .container .row .user .user-logo .dropdown ul li .dropdown-item input {
   -webkit-appearance: none;
   -moz-appearance: none;

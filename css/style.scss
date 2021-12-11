@@ -102,6 +102,20 @@ nav {
                             border-radius: 15px;
                             li {
                                 margin-top: 15px;
+                                .logout {
+                                    a {
+                                        i {
+                                            font-size: 24px;
+                                            font-weight: normal;
+                                            color: #e24444;
+                                        }
+                                        span {
+                                            font-size: 16px;
+                                            font-weight: 600;
+                                            color: #e24444;
+                                        }
+                                    }
+                                }
                                 .dropdown-item {
                                     input {
                                         -webkit-appearance: none;
