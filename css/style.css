@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  background-color: #1c1c24;
+  height: 80px;
+  border: 2px solid #2d2d3a;
+}
+nav .container .row h5 {
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6;
+  cursor: pointer;
+}
+nav .container .row .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4447e2;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav .container .row .logo i {
+  padding: 6px;
+}
+nav .container .row .task,
+nav .container .row .news,
+nav .container .row .help {
+  cursor: pointer;
+}
+nav .container .row .task i,
+nav .container .row .news i,
+nav .container .row .help i {
+  font-size: 24px;
+  font-weight: normal;
+  color: #5f5f6e;
+}
+nav .container .row .task span,
+nav .container .row .news span,
+nav .container .row .help span {
+  font-size: 16px;
+  color: #5f5f6e;
+}
+nav .container .row .task .task:active,
+nav .container .row .news .task:active,
+nav .container .row .help .task:active {
+  color: #fff;
+}
+nav .container .row .user .plus {
+  width: 146px;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+nav .container .row .user .plus .icon {
+  width: 30px;
+  height: 30px;
+  background: #4447e2;
+  border-radius: 10px;
+}
+nav .container .row .user .plus .icon .bx-plus {
+  color: #fff;
+  font-size: 17px;
+  padding: 7px;
+}
+nav .container .row .user .plus .bxs-coin-stack {
+  font-size: 16px;
+  color: #fff;
+}
+nav .container .row .user .plus span {
+  color: #fff;
+  font-size: 16px;
+  padding: 4px 0;
+}
+nav .container .row .user .user-logo {
+  cursor: pointer;
+}
+nav .container .row .user .user-logo img {
+  width: 40px;
+  height: 40px;
+  margin: 0 14px 0 10px;
+}
+nav .container .row .user .user-logo i {
+  color: #5f5f6e;
+  font-weight: bold;
+  font-size: 26px;
+}
+nav .container .row .user .user-logo .dropdown ul {
+  width: 255px;
+  height: auto;
+  background-color: #1c1c24;
+  border: 2px solid #2d2d3a;
+  border-radius: 15px;
+}
+nav .container .row .user .user-logo .dropdown ul li {
+  margin-top: 15px;
+}
+nav .container .row .user .user-logo .dropdown ul li .dropdown-item input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+nav .container .row .user .user-logo .dropdown ul li .dropdown-item input:focus {
+  outline: 0;
+}
+nav .container .row .user .user-logo .dropdown ul li .dropdown-item .toggle {
+  height: 24px;
+  width: 44px;
+  border-radius: 15px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  background: #2d2d3a;
+  transition: all 0.2s ease;
+}
+nav .container .row .user .user-logo .dropdown ul li .dropdown-item .toggle:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #4447e2;
+  transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+}
+nav .container .row .user .user-logo .dropdown ul li .dropdown-item .toggle:checked:after {
+  transform: translatex(20px);
+}
+nav .container .row .user .user-logo .dropdown ul li i {
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+}
+nav .container .row .user .user-logo .dropdown ul li span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+nav .container .row .user .user-logo .dropdown ul .line {
+  width: 85%;
+  height: 1px;
+  background-color: #2d2d3a;
+  margin: 22px auto;
+}/*# sourceMappingURL=style.css.map */
