@@ -159,4 +159,18 @@ nav .container .row .user .user-logo .dropdown ul .line {
   height: 1px;
   background-color: #2d2d3a;
   margin: 22px auto;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #e24444;
+  }
+}
+section p {
+  font-size: 26px;
+  font-weight: bold;
+  color: #d12e2e;
+  margin: 55px 0 37px;
+}
+
+/*# sourceMappingURL=style.css.map */
