@@ -119,6 +119,8 @@
         </div>
       </div>
     </div>
+
+    <div class="div" id="div"></div>
   </nav>
 
 
@@ -126,7 +128,7 @@
 
 
   <section>
-    <div class="container">
+    <div class="container position-relative">
 
       <div class="top d-flex position-relative">
         <p>Task list</p>
@@ -223,11 +225,7 @@
           <button type="button" class="btn btn-danger shadow">Perform a task</button>
         </div>
 
-      </div>
-
-
-      <!------ Second Row ------>
-      <div class="row d-flex justify-content-evenly">
+        <!------ Second Row ------>
 
         <!-- First Card - Anton -->
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column">
@@ -313,10 +311,7 @@
           <button type="button" class="btn btn-danger shadow">Perform a task</button>
         </div>
 
-      </div>
-
-      <!------ Third Row ------>
-      <div class="row d-flex justify-content-evenly">
+        <!------ Third Row ------>
 
         <!-- First Card - Dmitry -->
         <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column">
@@ -384,11 +379,36 @@
 
       </div>
 
-
-
+      <div class="btn-up position-absolute" onclick="topFunction()" id="myBtn">
+        <i class='bx bx-chevrons-up p-2'></i>
+      </div>
 
     </div>
   </section>
+
+
+  <!--====== Footer Part ======-->
+
+
+  <footer>
+    <div class="container">
+      <div class="row d-flex justify-content-between align-content-center">
+        <div class="col-4 social d-flex align-items-center mt-2">
+          <i class='bx bxl-twitter'></i>
+          <i class='bx bxl-vk'></i>
+          <i class='bx bxl-telegram'></i>
+        </div>
+
+        <div class="col-4 text-center mt-2">
+          <h2>© 2020 - All Rights Lecensed</h2>
+        </div>
+
+        <div class="col-4 text-end mt-2">
+          <h2>For commercial inquiries</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -398,6 +418,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+  <!-- JavaScript Custom Link -->
+  <script src="js/main.js"></script>
 
 </body>
 
