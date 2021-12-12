@@ -34,7 +34,6 @@ nav {
                     padding: 6px;
                 }
             }
-            .task,
             .news,
             .help {
                 cursor: pointer;
@@ -47,8 +46,16 @@ nav {
                     font-size: 16px;
                     color: $grey;
                 }
-
-                .task:active {
+            }
+            .task {
+                cursor: pointer;
+                i {
+                    font-size: 24px;
+                    font-weight: normal;
+                    color: #fff;
+                }
+                span {
+                    font-size: 16px;
                     color: #fff;
                 }
             }
@@ -177,14 +184,110 @@ nav {
     }
 }
 
-
 //-- ====== Section Part ====== --//
 
 section {
-    p{
-        font-size: 26px;
-        font-weight: bold;
-        color: rgb(209, 46, 46);
-        margin: 55px 0 37px;
+    background-color: rgba(19, 20, 25);
+    .container {
+        p {
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            margin: 35px 0 35px 20px;
+        }
+        .task-btn {
+            right: 25px;
+            width: 132px;
+            height: 50px;
+            background: #2d2d3a;
+            border-radius: 15px;
+            border: 0;
+            margin: 30px 0;
+            cursor: pointer;
+            span {
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+                padding: 0 8px;
+            }
+        }
+
+        .row {
+            .col-lg-3 {
+                width: 290px;
+                height: 360px;
+                background-color: #1c1c24;
+                border-radius: 15px;
+                margin-bottom: 20px;
+                .tran-logo {
+                    width: 250px;
+                    height: 50px;
+                    margin-bottom: 20px;
+                    .logo {
+                        position: relative;
+                        cursor: pointer;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        .icon {
+                            width: 1rem;
+                            height: 1rem;
+                            border-radius: 50%;
+                            background-color: #1c1c24;
+                            padding: 4px;
+                            position: absolute;
+                            bottom: 1px;
+                            right: 0;
+                            i {
+                                font-size: 8px;
+                                color: #e24444;
+                            }
+                        }
+                    }
+                    .tran-name {
+                        h1 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                        h3 {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #5f5f6e;
+                        }
+                    }
+                    .tran-dot {
+                        right: 0;
+                        i {
+                            width: 18px;
+                            height: 18px;
+                            color: #8e8e96;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .tran-item {
+                    width: 250px;
+                    height: 180px;
+                    margin: 0 auto;
+                    cursor: pointer;
+                }
+                .btn {
+                    width: 250px;
+                    height: 50px;
+                    background-color: #1c1c24;
+                    border: 2px solid #4447e2;
+                    border-radius: 15px;
+                    margin: 20px auto;
+                    font-size: 16px;
+                    font-weight: 500;
+                    &:hover {
+                        background-color: #4447e2;
+                    }
+                }
+            }
+        }
     }
 }
