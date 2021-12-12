@@ -14,6 +14,7 @@ nav {
     background-color: #1c1c24;
     height: 80px;
     border: 2px solid #2d2d3a;
+    z-index: 1000;
     .container {
         .row {
             h5 {
@@ -219,6 +220,20 @@ section {
                 background-color: #1c1c24;
                 border-radius: 15px;
                 margin-bottom: 20px;
+                .empty {
+                    i {
+                        font-size: 80px;
+                        color: #343444;
+                    }
+                }
+                .empty-img{
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    i {
+                        font-size: 80px;
+                        color: #343444;
+                    }
+                }
                 .tran-logo {
                     width: 250px;
                     height: 50px;
@@ -242,6 +257,15 @@ section {
                             i {
                                 font-size: 8px;
                                 color: #e24444;
+                            }
+                            .anastasia {
+                                color: #50d86a;
+                            }
+                            .dwinawan {
+                                color: #a86ce4;
+                            }
+                            .anton {
+                                color: #ffa10b;
                             }
                         }
                     }

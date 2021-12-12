@@ -7,6 +7,7 @@ nav {
   background-color: #1c1c24;
   height: 80px;
   border: 2px solid #2d2d3a;
+  z-index: 1000;
 }
 nav .container .row h5 {
   font-weight: 500;
@@ -197,6 +198,18 @@ section .container .row .col-lg-3 {
   border-radius: 15px;
   margin-bottom: 20px;
 }
+section .container .row .col-lg-3 .empty i {
+  font-size: 80px;
+  color: #343444;
+}
+section .container .row .col-lg-3 .empty-img {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section .container .row .col-lg-3 .empty-img i {
+  font-size: 80px;
+  color: #343444;
+}
 section .container .row .col-lg-3 .tran-logo {
   width: 250px;
   height: 50px;
@@ -223,6 +236,15 @@ section .container .row .col-lg-3 .tran-logo .logo .icon {
 section .container .row .col-lg-3 .tran-logo .logo .icon i {
   font-size: 8px;
   color: #e24444;
+}
+section .container .row .col-lg-3 .tran-logo .logo .icon .anastasia {
+  color: #50d86a;
+}
+section .container .row .col-lg-3 .tran-logo .logo .icon .dwinawan {
+  color: #a86ce4;
+}
+section .container .row .col-lg-3 .tran-logo .logo .icon .anton {
+  color: #ffa10b;
 }
 section .container .row .col-lg-3 .tran-logo .tran-name h1 {
   font-size: 16px;
